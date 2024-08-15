@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  background-image: url(assets/trading-bg.jpg);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.active {
+  backdrop-filter: blur(10px);
+  color: blue !important;
+}
+.nav-link {
+  font-size: 18px !important;
+  color: black !important;
+  font-weight: bold !important;
+}
+.text-color {
+  color: #353f4f;
+}
+.text-color-light {
+  color: rgb(108, 117, 125);
+}
+/* .sign-btn {
+  transition: border 0.3s ease !important;
+}
+.sign-btn:hover {
+  border: 0px !important;
+} */
+.main-hero {
+  margin-top: 200px !important;
+}
+.solCard {
+  background-image: linear-gradient(rgb(237, 238, 240), #fff);
+  border: none !important;
+}
+.priceCard {
+  border: none !important;
+}
